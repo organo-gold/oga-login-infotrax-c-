@@ -1,0 +1,13 @@
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\bin\Release\netcoreapp2.2\OGALoginWithInfotrax.deps.json
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\bin\Release\netcoreapp2.2\OGALoginWithInfotrax.runtimeconfig.json
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\bin\Release\netcoreapp2.2\OGALoginWithInfotrax.runtimeconfig.dev.json
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\bin\Release\netcoreapp2.2\OGALoginWithInfotrax.dll
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\bin\Release\netcoreapp2.2\OGALoginWithInfotrax.pdb
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.csproj.CoreCompileInputs.cache
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.RazorAssemblyInfo.cache
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.RazorAssemblyInfo.cs
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.AssemblyInfoInputs.cache
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.AssemblyInfo.cs
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.RazorTargetAssemblyInfo.cache
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.dll
+C:\Users\gurpreet.deol\source\repos\organo-source\oga-login-infotrax-core\OGALoginWithInfotrax\obj\Release\netcoreapp2.2\OGALoginWithInfotrax.pdb
