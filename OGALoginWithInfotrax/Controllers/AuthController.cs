@@ -30,7 +30,7 @@ namespace OGALoginWithInfotrax.Controllers
                 if (model != null) serializedObject = JsonConvert.SerializeObject(model);
             });
             AddResponseHeaders();
-            return !string.IsNullOrEmpty(serializedObject)?serializedObject:"{\"MESSAGE\":\"Login Error\",\"DETAIL\":\"Invalid user\",\"TIMESTAMP\":\""+DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss")+"\",\"ERRORCODE\":\"902\"}";
+            return !string.IsNullOrEmpty(serializedObject) ? serializedObject : "{\"MESSAGE\":\"Login Error\",\"DETAIL\":\"Invalid user\",\"TIMESTAMP\":\"" + DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss") + "\",\"ERRORCODE\":\"902\"}";
         }
 
         [HttpPost]
@@ -42,16 +42,17 @@ namespace OGALoginWithInfotrax.Controllers
             {
                 RequestUri = new Uri(string.Format($"{USER_DETAIL_API}", token, API_KEY, DIST_ID)),
                 Method = HttpMethod.Get
-            }).ContinueWith((Response) => {
+            }).ContinueWith((Response) =>
+            {
                 var json = Response.Result.Content.ReadAsStringAsync();
                 var data = JsonConvert.DeserializeObject<dynamic>(json.Result);
                 if (data != null) serializedObject = JsonConvert.SerializeObject(data);
             });
             AddResponseHeaders();
-            return !string.IsNullOrEmpty(serializedObject)?serializedObject:"{\"MESSAGE\":\"Validation Error\",\"DETAIL\":\"Not Authorized to run this service\",\"TIMESTAMP\":\""+DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss")+"\",\"ERRORCODE\":\"904\"}";
+            return !string.IsNullOrEmpty(serializedObject) ? serializedObject : "{\"MESSAGE\":\"Validation Error\",\"DETAIL\":\"Not Authorized to run this service\",\"TIMESTAMP\":\"" + DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss") + "\",\"ERRORCODE\":\"904\"}";
         }
 
-        private void AddResponseHeaders()=> Response.Headers.Add("Access-Control-Allow-Origin", new string[] { "https://www.myogacademy.com", "https://ogacademystg.wpengine.com" });
+        private void AddResponseHeaders() => Response.Headers.Add("Access-Control-Allow-Origin", new string[] { "https://ogacademystg.wpengine.com" }); //"https://www.myogacademy.com", 
 
         const string API_KEY = "O3962162";
         const string DIST_ID = "1000101";
