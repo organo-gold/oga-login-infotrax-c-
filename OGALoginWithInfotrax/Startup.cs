@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using OGALoginWithInfotrax.Models;
 
 namespace OGALoginWithInfotrax
 {
@@ -28,6 +29,7 @@ namespace OGALoginWithInfotrax
             services.AddCors();
             services.AddHttpClient();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.Configure<OrganoSettings>(Configuration.GetSection("OrganoSettings"));
 
             services.Configure<IISServerOptions>(options => {options.AutomaticAuthentication = false;});
         }
